@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:#fff;
+    padding:30px;
+}
+
+/* Page */
+.page{
+    max-width:1000px;
+    margin:auto;
+}
+
+/* Heading */
+h2{
+    margin-bottom:20px;
+    color:#00f2ff;
+}
+
+/* Table Container */
+.table-container{
+    background:#020617;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 0 25px rgba(0,255,255,0.15);
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+thead{
+    background:#020617;
+}
+
+th, td{
+    padding:14px;
+    text-align:left;
+}
+
+th{
+    color:#00f2ff;
+    border-bottom:2px solid #00f2ff;
+}
+
+td{
+    color:#cbd5f5;
+    border-bottom:1px solid #1e293b;
+}
+
+/* Hover */
+tbody tr:hover{
+    background:#020617;
+}
+
+/* Delete Button */
+.delete-btn{
+    background:#ff0033;
+    color:#fff;
+    padding:6px 14px;
+    border-radius:6px;
+    text-decoration:none;
+    font-size:14px;
+    transition:0.3s;
+}
+
+.delete-btn:hover{
+    background:#ff3355;
+    box-shadow:0 0 12px rgba(255,0,51,0.7);
+}

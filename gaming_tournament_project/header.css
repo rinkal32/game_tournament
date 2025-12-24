@@ -1,0 +1,41 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+} 
+.main-head{ 
+    background-color: transparent; 
+} 
+nav{ 
+    min-height: 10vh; 
+    margin: auto; 
+    width: 90%; 
+    display: flex; 
+    align-items: center; 
+} 
+ul{ 
+    display: flex; 
+    justify-content: space-around; 
+    flex: 1 1 20rem; 
+} 
+#logo{ 
+    flex: 1 1 20rem; 
+    color: #22c55e; 
+} 
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.header{ 
+    text-decoration: none; 
+    color: white; 
+} 
+li{
+     list-style: none; 
+}
+.btn{
+    background-color: green;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}

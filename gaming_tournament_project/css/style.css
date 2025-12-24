@@ -1,0 +1,84 @@
+body { 
+    font-family: Arial, sans-serif;
+     margin:0;
+      padding:0;
+       background:#f0f0f0;
+ }
+header { 
+    background:#1e1e2f;
+     color:white; display:flex; 
+     justify-content:space-between; 
+     align-items:center;
+     padding:10px 50px; 
+    }
+header nav a { 
+    color:white; 
+    margin-left:20px; 
+    text-decoration:none; 
+    font-weight:bold; 
+}
+header .logo {
+     font-size:24px; 
+     font-weight:bold; 
+    }
+
+
+ .banner {
+    min-height: 60vh;
+    background: url("9411718.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.banner-buttons a {
+     margin:20px; 
+     padding:15px 30px;
+    text-decoration:none;
+    border-radius:5px; 
+    font-weight:bold; 
+    }
+.btn-primary { 
+    background:#0066ff;
+     color:white; 
+    }
+.btn-success { 
+    background:#28a745; 
+    color:white; 
+}
+
+.features { 
+    display:flex; 
+    justify-content:space-around; 
+    margin:50px 20px; 
+}
+.feature-card { 
+    background:white; 
+    padding:30px; 
+    border-radius:10px; 
+    width:250px; 
+    text-align:center; 
+    box-shadow:0 0 10px rgba(0,0,0,0.2);}
+.feature-card .btn { 
+    display:inline-block; 
+    margin-top:15px; 
+    padding:10px 20px; 
+    background:#0066ff; 
+    color:white; 
+    text-decoration:none; 
+    border-radius:5px;
+}
+
+table { 
+    width:80%; 
+    margin:20px auto; 
+    border-collapse:collapse; 
+    background:white;
+}
+th, td { 
+    border:1px solid #ccc; 
+    padding:10px; 
+    text-align:center;
+}
+th { 
+    background:#0066ff; 
+    color:white; 
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+     background: linear-gradient(rgba(0,0,0,2),transparent),url(9411718.jpg);
+    background-position: center;
+    background-size: cover;
+}
+form{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    background-color: transparent;
+    box-shadow: 0 0 10px white;
+    padding: 2rem;
+}
+h1{
+    padding: 0rem 0rem 2rem 0rem;
+    color: white;
+    text-align: center;
+    font-size: 2.7rem;
+}
+input{
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+    width: 100%;
+}
+button{
+    padding: 1rem;
+    width: 100%;
+   margin: 1rem 0rem 1rem 0rem;
+   background-color: brown;
+   color: white;
+   border: none;
+   transition: all 0.5s ease-in-out;
+   cursor: pointer;
+}
+button:hover{
+    background-color: rgb(215, 98, 39);
+}
+p{
+    font-size: 1.3rem;
+    color: white;
+}
+a{
+    color: black;
+}
